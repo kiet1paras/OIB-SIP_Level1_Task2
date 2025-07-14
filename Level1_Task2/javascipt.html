@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        /*console.log("Hello World"); // This displays the message in the console only not in the page.
+        document.write("Hello I am JS"); // This displays the message in the page.*/
+
+       /* a=150;
+        b=250;
+        console.log("Sum is: "+(a+b));
+        document.write("Sum is: "+(a+b));*/
+     
+       //console.log(a);
+       /*const a=100; b=200;
+       b++;
+       console.log("Sum is:"+(a+b));*/
+
+       console.log(5 %2 );
+       console.log(2 ** 3);
+       console.log(4 ** (1/2));
+       console.log(2+2+   '     1      ' );    // number or word or letter within single quotes is considered as simple string
+       let s="my"+"string";
+       console.log(s);
+
+       console.log(6 - '2');
+       console.log('6' / '2');
+       
+       /*let apple=40, mango=50;
+       console.log(apple+mango);*/
+
+       /* let apple="40 ", mango="50";
+       console.log(apple + mango);
+
+
+       let a=1,b=2;
+       let c= 3-(a = b + 1);
+       console.log(a);
+       console.log(b);
+       console.log(c); */
+
+       //Chaining Assignments
+       let a1,b1,c1;
+       a1=b1=c1=2+7;
+       alert(a1);
+       alert(b1);
+       alert(c1);
+       console.log(a1);
+       console.log(b1);
+       console.log(c1);
+
+       //increment and decrement operators
+       let counter=1;
+       console.log(2 * ++counter);
+
+       let counter1=1;
+       console.log(2 * counter1++);
+
+       //comma operator
+       let a = (1+2 , 3+4); //Firstly a takes value 1+2 i.e. 3 but after this there is also one expreesion after comma 3+4 i.e 7 so it takes the last value i.e. 7
+       console.log(a);
+        function disp(){
+            a=document.getElementById("t1").value;
+            document.getElementById("p1").textContent=a;
+            b=document.getElementById("t2").value;
+            document.getElementById("p2").textContent=b;
+        }
+       
+       
+
+
+
+    </script>
+</head>
+<body>
+    <h2> Learning Javascript </h2>
+<label for="">Enter Number</label> 
+<input type="text" id="t1"><br>
+<label for="">Enter 2nd Number</label>
+<input type="text" id="t2">
+<br><br>
+<button onclick="disp()">Click</button>
+<p id="p1">Display Area</p>
+<p id="p1">Display Area</p>
+</body>
+</html>
